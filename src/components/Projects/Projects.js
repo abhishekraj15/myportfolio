@@ -10,6 +10,7 @@ import TalkTive from "../../Assets/Projects/TalkTive.png";
 import WeatherApp from "../../Assets/Projects/WeatherApp.png";
 import ShoppingCart from "../../Assets/Projects/ShoppingCart.png";
 import AVD from "../../Assets/Projects/AVD.png";
+import MystryMsg from "../../Assets/Projects/mystry.png";
 
 function Projects() {
   return (
@@ -63,6 +64,17 @@ function Projects() {
               description="Basic Chat Application Real time messaging by using socket.io"
               ghLink="https://github.com/abhishekraj15/chatApplication"
               demoLink="https://talk-to-tive.onrender.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MystryMsg}
+              isBlog={false}
+              title="MystryMsg"
+              description="Create your unique link, share it, and receive anonymous feedback/messages from anyone. Check them out on your dashboard. 📷"
+              ghLink="https://github.com/abhishekraj15/mystryMessages"
+              demoLink="https://mystry-messages-flame.vercel.app/"
             />
           </Col>
 
