@@ -34,28 +34,6 @@ function Projects() {
               demoLink="https://edtechnotion.vercel.app/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={MusicSchool}
-              isBlog={false}
-              title="MusicSchool"
-              description="Designed and developed a dynamic, user-friendly website for a music school to enhance online presence and streamline student engagement. The project involved creating a responsive, modern interface that adapts across devices."
-              ghLink="https://github.com/abhishekraj15/music-academy-nextLevelUi"
-              demoLink="https://music-academy-nextlevelui.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={AVD}
-              isBlog={false}
-              title="AVD Staffing"
-              description="AVD Staffing is a dynamic and innovative recruitment company, unwaveringly committed to delivering exceptional HR solutions tailored specifically to the low to mid-level management sector Our dedicated team is driven by a shared passion for excellence and a genuine enthusiasm for providing our clients with the best possible service. "
-              //ghLink="https://github.com/abhishekraj15/music-academy-nextLevelUi"
-              demoLink="https://www.avdstaffing.com/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TalkTive}
@@ -67,6 +45,20 @@ function Projects() {
             />
           </Col>
 
+         
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={AVD}
+              isBlog={false}
+              title="AVD Staffing"
+              description="AVD Staffing is a dynamic and innovative recruitment company, unwaveringly committed to delivering exceptional HR solutions tailored specifically to the low to mid-level management sector Our dedicated team is driven by a shared passion for excellence and a genuine enthusiasm for providing our clients with the best possible service. "
+              //ghLink="https://github.com/abhishekraj15/music-academy-nextLevelUi"
+              demoLink="https://www.avdstaffing.com/"
+            />
+          </Col>
+
+          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={MystryMsg}
@@ -75,6 +67,16 @@ function Projects() {
               description="Create your unique link, share it, and receive anonymous feedback/messages from anyone. Check them out on your dashboard. 📷"
               ghLink="https://github.com/abhishekraj15/mystryMessages"
               demoLink="https://mystry-messages-flame.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MusicSchool}
+              isBlog={false}
+              title="MusicSchool"
+              description="Designed and developed a dynamic, user-friendly website for a music school to enhance online presence and streamline student engagement. The project involved creating a responsive, modern interface that adapts across devices."
+              ghLink="https://github.com/abhishekraj15/music-academy-nextLevelUi"
+              demoLink="https://music-academy-nextlevelui.netlify.app/"
             />
           </Col>
 
