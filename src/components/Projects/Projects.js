@@ -21,7 +21,7 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are some of the recent projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -39,32 +39,29 @@ function Projects() {
               imgPath={TalkTive}
               isBlog={false}
               title="TalkTive"
-              description="Basic Chat Application Real time messaging by using socket.io"
+              description="Basic Chat Application featuring Real time messaging by using socket.io"
               ghLink="https://github.com/abhishekraj15/chatApplication"
               demoLink="https://talk-to-tive.onrender.com/"
             />
           </Col>
 
-         
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={AVD}
               isBlog={false}
               title="AVD Staffing"
-              description="AVD Staffing is a dynamic and innovative recruitment company, unwaveringly committed to delivering exceptional HR solutions tailored specifically to the low to mid-level management sector Our dedicated team is driven by a shared passion for excellence and a genuine enthusiasm for providing our clients with the best possible service. "
+              description="AVD Staffing is a dynamic and innovative recruitment company, unwaveringly committed to delivering exceptional HR solutions tailored specifically to the low to mid-level management sector. Our dedicated team is driven by a shared passion for excellence and a genuine enthusiasm for providing our clients with the best possible service. "
               //ghLink="https://github.com/abhishekraj15/music-academy-nextLevelUi"
               demoLink="https://www.avdstaffing.com/"
             />
           </Col>
-
-          
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={MystryMsg}
               isBlog={false}
               title="MystryMsg"
-              description="Create your unique link, share it, and receive anonymous feedback/messages from anyone. Check them out on your dashboard. 📷"
+              description="With this project, Generate a unique link to share, allowing anyone to send you anonymous feedback and messages.Check them out on your dashboard. 📷"
               ghLink="https://github.com/abhishekraj15/mystryMessages"
               demoLink="https://mystry-messages-flame.vercel.app/"
             />

@@ -11,13 +11,14 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Abhishek Rajput </span>
             from <span className="purple "> Noida, India.</span>
             <br />
-            I am currently employed as a Frontend developer at devlupers.
+            <br />
+            I am currently employed as a Frontend developer at Devlupers.
             <br />
             I have completed B.tech in Computer Science and Engineering from Dr.
             A. P. J. Abdul Kalam Technical University.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, I love to do!
           </p>
           <ul>
             <li className="about-activity">
@@ -32,7 +33,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "One day developing something different!"{" "}
+            "One day I'll be developing something different!"{" "}
           </p>
           <footer className="blockquote-footer">Abhishek</footer>
         </blockquote>

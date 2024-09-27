@@ -24,16 +24,15 @@ function Home2() {
               <br />
               <br />I am fluent in
               <i>
-                <b className="purple">
-                  {" "}
-                  C++, Javascript, React.js and Nextjs .
-                </b>
+                <b className="purple"> C++, Javascript, React.js and Nextjs. </b>
               </i>
-              My field of Interests are building new &nbsp;
+              My interests lie in developing innovative &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">Full Stack Development.</b>
+                <b className="purple">Web Technologies and Products </b>
+              </i>
+              and also in areas related to{" "}
+              <i>
+                <b className="purple">Full Stack Development. </b>
               </i>
               Whenever possible, I also apply my passion for developing websites
               with <b className="purple">Node.js and Express.js</b> and
@@ -45,7 +44,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and Next.js. </b>
               </i>
             </p>
           </Col>
