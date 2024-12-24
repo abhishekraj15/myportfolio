@@ -3,12 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import EdTech from "../../Assets/Projects/EdTech.png";
-import MusicSchool from "../../Assets/Projects/MusicSchool.png";
-import GithubProfile from "../../Assets/Projects/GithubProfile.png";
-import Password from "../../Assets/Projects/Password.png";
 import TalkTive from "../../Assets/Projects/TalkTive.png";
-import WeatherApp from "../../Assets/Projects/WeatherApp.png";
-import ShoppingCart from "../../Assets/Projects/ShoppingCart.png";
+import Ravian from "../../Assets/Projects/Ravian.png";
+import AstroGanesh from "../../Assets/Projects/Astroganesh.png";
 import AVD from "../../Assets/Projects/AVD.png";
 import MystryMsg from "../../Assets/Projects/mystry.png";
 
@@ -26,12 +23,40 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={AstroGanesh}
+              isBlog={false}
+              title="AstroGanesh"
+              description="A platform where users can reach India's top astrologers and chat for solving problems . API integration , aimed
+at optimization of functionality and improving performance of the platform. Chatting feature has been
+enhanced which delivers a seamless and engaging user experience to the astrology enthusiasts. Contributed
+towards success of the platform by improving and developing astrologer services. Demonstrated strong
+collaboration and teamwork, fostering innovation and achievement of project goals. Skills involved : React,
+Tailwind CSS, React.js, Next.js"
+              ghLink={false}
+              demoLink="https://astroganesh.in/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={EdTech}
               isBlog={false}
               title="EdTech"
-              description="The EdTech platform connects students with diverse courses and provides instructors with tools to create, manage, and sell content. Students can search, purchase, and enroll in courses through an intuitive interface with advanced filters and detailed descriptions. Instructors use a user-friendly dashboard to upload materials, set pricing, and track sales. The platform supports secure payments, interactive features like forums and live Q&A, and course reviews."
+              description="Developed an EdTech platform that connects students with diverse courses and empowers instructors to create, manage, and sell content.Designed An intuitive user interface through which students can easily look and enroll in courses available based on advanced filters or short course descriptions.Built an instructor dashboard for uploading course materials, setting their pricing, and tracking their sales performance. Secured payment systems, interactive forums for dialogue , live Q&A 's , and review functionalities improve user engagement. Delivering a seamless and scalable platform to support e-learning and instructor growth."
               ghLink="https://github.com/abhishekraj15/edTechNotion"
               demoLink="https://edtechnotion.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Ravian}
+              isBlog={false}
+              title="Ravian"
+              description="Developed a static website for the Ravian AI Platform using Next.js and Tailwind CSS , focusing on
+transforming data into smart decisions with specialized AI agents . Deployed on Vercel for fast, reliable
+performance. Skills involved : Tailwind CSS, Next.js."
+              ghLink={false}
+              demoLink="https://ravian.ai/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -39,7 +64,7 @@ function Projects() {
               imgPath={TalkTive}
               isBlog={false}
               title="TalkTive"
-              description="Basic Chat Application featuring Real time messaging by using socket.io"
+              description="Basic Chat Application featuring real-time messaging using Socket.IO. This application enables seamless communication between users by implementing WebSocket technology for instant message delivery. It includes features like user authentication, private and group chats, and a responsive design for an optimal user experience across devices. "
               ghLink="https://github.com/abhishekraj15/chatApplication"
               demoLink="https://talk-to-tive.onrender.com/"
             />
@@ -64,49 +89,6 @@ function Projects() {
               description="With this project, Generate a unique link to share, allowing anyone to send you anonymous feedback and messages.Check them out on your dashboard. 📷"
               ghLink="https://github.com/abhishekraj15/mystryMessages"
               demoLink="https://mystry-messages-flame.vercel.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={MusicSchool}
-              isBlog={false}
-              title="MusicSchool"
-              description="Designed and developed a dynamic, user-friendly website for a music school to enhance online presence and streamline student engagement. The project involved creating a responsive, modern interface that adapts across devices."
-              ghLink="https://github.com/abhishekraj15/music-academy-nextLevelUi"
-              demoLink="https://music-academy-nextlevelui.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={WeatherApp}
-              isBlog={false}
-              title="WeatherApp"
-              description="The Weather App is a simple project developed using JavaScript, CSS, and HTML. This project is an interesting project for simply weather forecasting."
-              ghLink="https://github.com/abhishekraj15/Weather-App"
-              demoLink="https://weather-app1-forecast.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={GithubProfile}
-              isBlog={false}
-              title="GithubProfile"
-              description="Create a Dev Detective GitHub Project By using API Call which fetch your GitHub account in front of you."
-              ghLink="https://github.com/abhishekraj15/Dev_Detective_Project-Github-"
-              demoLink="https://abhishekraj-dev-detective-project.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ShoppingCart}
-              isBlog={false}
-              title="ShoppingCart"
-              //description=""
-
-              demoLink="https://coruscating-tarsier-362511.netlify.app/"
             />
           </Col>
         </Row>

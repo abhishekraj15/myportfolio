@@ -8,34 +8,48 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Abhishek Rajput </span>
-            from <span className="purple "> Noida, India.</span>
+            Hello Everyone, I am{" "}
+            <span className="purple">Abhishek Rajput </span>
+            from <span className="purple "> India.</span>
             <br />
+            <br />I am currently employed as a{" "}
+            <i>
+              <b className="purple">Frontend developer at Devlupers</b>
+            </i>
+            ,
             <br />
-            I am currently employed as a Frontend developer at Devlupers.
-            <br />
-            I have completed B.tech in Computer Science and Engineering from Dr.
-            A. P. J. Abdul Kalam Technical University.
+            responsible for designing dynamic and responsive web applications ,
+            with great hands-on expertise in technologies that include{" "}
+            <i>
+              <b className="purple">
+                Tailwind CSS, JavaScript, React.js and Next.js
+              </b>
+            </i>
+            , building into excellent user experiences and ensuring exceptional
+            front-end performance.
             <br />
             <br />
             Apart from coding, I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Watching Tech Tutorials
+              <ImPointRight /> Exploring New Tech Trends
             </li>
             <li className="about-activity">
-              <ImPointRight /> Read Tech Docs
+              <ImPointRight /> Building Personal Projects
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Contributing to Open Source
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Experimenting with Amazon Web Services.
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "One day I'll be developing something different!"{" "}
           </p>
-          <footer className="blockquote-footer">Abhishek</footer>
+          <footer className="blockquote-footer">Abhishek Rajput</footer>
         </blockquote>
       </Card.Body>
     </Card>
